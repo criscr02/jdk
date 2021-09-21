@@ -1,4 +1,4 @@
-# Instalacion JDK en Ubuntu
+# Instalación JDK en Ubuntu
 
 ## Introducción
 
