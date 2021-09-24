@@ -5,6 +5,7 @@ Cristian Cantelar Rodríguez
 1. [Introducción](#P1)
 2. [Como instalar Java en Ubuntu desde repositorios](#P2)
 3. [Comprobacion de version](#P3)
+4. [Configuración de las variables de entorno](#P4)
 
 <div id='P1' />
 
@@ -48,6 +49,9 @@ java 8version
 
 Si no se ejecuta la versión 8 deberas hacer lo siguiente
 
+
+<div id='P4' />
+
 ### Configuración de las variables de entorno
 Este paso es necesario ya que al usar Java, Linux no sabe dónde esta ubicado el programa.
 Para solucionar eso tendremos que:
@@ -70,5 +74,6 @@ export JAVA_HOME
 export JRE_HOME
 export PATH
 ```
+![image](/Paso4.PNG)
 
 Con este simple proceso ya hemos instalado Java JDK en Ubuntu 20.04
