@@ -1,17 +1,19 @@
 # Instalación JDK en Ubuntu
 Cristian Cantelar Rodríguez
 
-##Indice
+## Indice
 1. [Introducción](#P1)
 2. [Como instalar Java en Ubuntu desde repositorios](#P2)
 3. [Comprobacion de version](#P3)
 
 <div id='P1' />
+
 ## Introduccíon
 Java Development Kit o JDK es un software que provee herramientas de desarrollo para la creacion de programas en java.
 Es ideal para crear y desarrollar aplicaciones o sitios webs.
 
 <div id='P2' />
+
 ## Como instalar Java en Ubuntu desde repositorios
 
 ### Paso 1
