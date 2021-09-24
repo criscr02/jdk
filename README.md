@@ -22,7 +22,7 @@ Accedamos a la terminal y lo primero que haremos es actualizar el sistema con el
 ```
 sudo apt-get update
 ```
-
+![image](img/paso1.png)
 ### Paso 2
 
 Instalar la versión de java que quieras
