@@ -22,8 +22,8 @@ Accedamos a la terminal y lo primero que haremos es actualizar el sistema con el
 ```
 sudo apt-get update
 ```
-![image](/Paso1.png)
-
+![image](/Paso1.PNG)
+  
 ### Paso 2
 
 Instalar la versión de java que quieras
@@ -34,6 +34,8 @@ En este caso instalaremos la version de OpenJDK 8
 ```
 sudo apt install openjdk-8-jdk
 ```
+![image](/Paso2.PNG)
+
 <div id='P3' />
 
 ### Paso 3
@@ -42,8 +44,31 @@ Verificar la version de JDK instalada
 ```
 java 8version
 ```
-En caso de querer verificar todas la versiones instaladas
+![image](/Paso3.PNG)
+
+Si no se ejecuta la versión 8 deberas hacer lo siguiente
+
+### Configuración de las variables de entorno
+Este paso es necesario ya que al usar Java, Linux no sabe dónde esta ubicado el programa.
+Para solucionar eso tendremos que:
+
+#### Listar la versiones de OpenJDK instaladas
 ```
 ls /usr/lib/jvm
 ```
+#### Actualización de las variables de entorno
+Edita y modifica el fichero profile
+```
+nano /etc/profile
+```
+Realiza los siguiente cambios en la versión 8
+```
+# Java version
+JAVA_HOME=/usr/lib/jvm/_____openJdk_____
+PATH=$PATH:$HOME/bin:$JAVA_HOME/bin
+export JAVA_HOME
+export JRE_HOME
+export PATH
+```
+
 Con este simple proceso ya hemos instalado Java JDK en Ubuntu 20.04
