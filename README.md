@@ -43,7 +43,7 @@ sudo apt install openjdk-8-jdk
 
 Verificar la version de JDK instalada
 ```
-java 8version
+java -version
 ```
 ![image](/Paso3.PNG)
 
